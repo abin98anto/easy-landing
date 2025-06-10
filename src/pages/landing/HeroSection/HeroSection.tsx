@@ -6,6 +6,7 @@ import "./HeroSection.scss";
 
 const HeroSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
+  console.log("hero section", isVisible);
 
   useEffect(() => {
     setIsVisible(true);
